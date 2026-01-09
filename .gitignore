@@ -1,18 +1,46 @@
+# Python
 *.pyc
-.DS_Store
-.idea
-.vscode
+*.pyo
+*.pyd
 __pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
 .env/
 .venv/
 env/
 venv/
-.idea
 .venv
 .uv-cache
-logs
-node_modules
-frontend/.vscode
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Project specific
 WareHouse/
 data/
 temp/
